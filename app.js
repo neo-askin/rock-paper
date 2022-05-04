@@ -42,19 +42,19 @@ function getResult(){
         result = 'You Win !';
     }
     else if (computerChoice === 'rock' && userChoice === 'scissors') {
-        result = 'You Lose !';
+        result = "t'es nul à chier";
     }
     else if (computerChoice === 'paper' && userChoice === 'scissors') {
         result = 'You Win !';
     }
     else if (computerChoice === 'paper' && userChoice === 'rock') {
-        result = 'You Lose !';
+        result = "t'es nul à chier !";
     } 
     else if (computerChoice === 'scissors' && userChoice === 'rock') {
-        result = 'You Win !';
+        result = "t'es nul à chier";
     }
     else if (computerChoice === 'scissors' && userChoice === 'paper') {
-        result = 'You Lose !';
+        result = "t'es nul à chier";
     } 
 
     resultDisplay.innerHTML = result;
